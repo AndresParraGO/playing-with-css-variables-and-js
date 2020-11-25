@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="desciption" content="Challenge of JavaScript30 - Playing with CSS Varibles and JS developed for Andrés Parra Garzón">
+  <meta name="author" content="Andrés Parra Garzón">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playing with CSS Variables and JS</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Pacifico&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Update CSS Variables with JS</h1>
+  </header> 
+
+  <main class="main">
+    <section class="controls">
+      <h2>Controls: </h2>
+      <label for="spacing">Spacing</label>
+      <input id="spacing" type="range" name="spacing" min="0" max="200" value="0" data-sizing="px"> 
+
+      <label for="blur">Blur</label>
+      <input id="blur" type="range" name="blur" min="0" max="50" value="0" data-sizing="px"> 
+
+      <label for="fontSize">Font Size</label>
+      <input id="fontSize" type="range" name="fontSize" min="10" max="100" value="20" data-sizing="px"> 
+
+      <label for="imgSize">Image Size</label>
+      <input id="imgSize" type="range" name="imgSize" min="10" max="500" value="200" data-sizing="px"> 
+
+      <label for="radius">Border Radius</label>
+      <input id="radius" type="range" name="radius" min="0" max="50" value="5" data-sizing="px"> 
+
+
+      <label for="baseColor">Base color</label>
+      <input type="color" id="baseColor" name="baseColor">
+
+      <label for="textColor">Text color</label>
+      <input type="color" id="textColor" name="textColor">
+
+      <label for="bgColor">Background color</label>
+      <input type="color" id="bgColor" name="bgColor">
+
+      <label for="fontFamily">Font Family</label>
+      <select name="fontFamily" id="fontFamily">
+        <option value="sans-serif">Sans Serif</option>
+        <option value="Poppins">Poppins</option>
+        <option value="Open Sans">Open Sans</option>
+        <option value="Pacifico">Pacifico</option>
+      </select>
+    </section>
+
+    <section class="content">
+      <img src="https://images.pexels.com/photos/45208/world-earth-planet-globe-45208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Earth Planet" class="img">
+      <div>
+        <h2>Lorem, ipsum dolor.</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis animi ex suscipit ab, nobis nihil incidunt cumque neque quos voluptatibus a, architecto explicabo adipisci minus perferendis doloremque veniam illum ad.</p>
+        <a href="#" class="button">Button</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Developed for <a href="https://andresparra.vercel.app/" target="_blank">Andres Parra Garzón</a></p>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+</html>

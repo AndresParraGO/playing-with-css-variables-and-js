@@ -1,0 +1,76 @@
+
+
+:root {
+  --baseColor: rgb(240, 224, 2);
+  --spacing: 20px;
+  --blur: 5px;
+  --fontSize: 36px;
+  --bgColor: #444857;
+  --fontFamily: sans-serif;
+  --textColor: #fff;
+  --imgSize: 200px;
+  --radius: 5px;
+}
+
+body {
+  color: var(--textColor);
+  font-family: var(--fontFamily);
+  background-color: var(--bgColor);
+}
+
+.header {
+  padding: 1rem;
+  text-align: center;
+}
+
+.header h1 {
+  color: var(--baseColor);
+  font-size: var(--fontSize);
+}
+
+
+.main {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 900px;
+  text-align: center;
+}
+
+
+
+.controls label {
+  margin: 1rem;
+}
+
+.controls input{
+  margin-bottom: 1rem;
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--baseColor);
+  color: var(--textColor);
+  border-radius: var(--radius);
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+}
+
+.img {
+  margin: 2rem 0;
+  /* display: block; */
+  width: var(--imgSize);
+  filter: blur(var(--blur));
+  padding: var(--spacing);
+  border-radius: var(--radius);
+}
+
+.footer {
+  padding: 1rem;
+  text-align: center;
+  color: var(--textColor);
+}
+
+.footer a {
+  color: var(--baseColor);
+  font-weight: bold;
+}
